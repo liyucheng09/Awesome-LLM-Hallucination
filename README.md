@@ -1,5 +1,9 @@
 # Awesome-LLM-Hallucination
 
+My personal paper selection for LLM Hallucination.
+
+---
+
 1. **Why Does ChatGPT Fall Short in Providing Truthful Answers?** [link](https://arxiv.org/abs/2304.10513) `arXiv'23`
 
 This paper attributes untruthful answers from LLMs into four types of errors: 1) **comprehension error** of user queries; 2) **specificity errors** - fail to provide answer in the an expected level of specificity; 3) **reasoning errors** - mistakes in logical reasoning; 4) **facutality errors** - mainly result from knowledge memorization and recall.
