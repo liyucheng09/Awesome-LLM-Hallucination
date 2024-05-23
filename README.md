@@ -16,8 +16,11 @@ This paper propose SAT Probe, a method probing attention patterns, that can pred
 
 * [Analysis] **Do Large Language Models Know What They Don’t Know?** [link](https://arxiv.org/pdf/2305.18153) `ACL'23-findings`
 
-Would LLMs have the self-awareness of admiting their own limitations? Such as, identiying their unknowable questions? This paper developed a new dataset contains five types of unanswerable questions and their answerable counterparts.
+Would LLMs have the self-awareness of admiting their own limitations? Such as, identiying unknowable questions or questions that they have no idea about? This paper developed a new dataset contains five types of unanswerable questions and their answerable counterparts. They also introduce a simple similarity method to classify questions into answerable and unanswerable.
 
+* [Analysis] **Do Language Models Know When They're Hallucinating References?** [link](https://arxiv.org/pdf/2305.18248) `EACL'24-finding`
+
+This paper focuses on the hallucination on references/citations/authors. And found they seem to aware they are hallucinating.
 
 ### 2. Fine-tuning
 
