@@ -42,6 +42,14 @@ This paper propose to train LLMs on simple synthetic tasks where huallucination 
 
 Again, another paper that generate correct-incorrect answer pairs, and fine-tune the model with DPO.
 
+* [Fine-tuning] **ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation** [link](https://arxiv.org/abs/2502.15543) `NeurIPS'25`
+
+Suppresses FFN layers associated with unfaithful generation, then adapts the model to rely on retrieved context when it conflicts with parametric knowledge. Introduces the CoFaithfulQA benchmark.
+
+* [Fine-tuning] **SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation** [link](https://arxiv.org/abs/2606.27786) `arXiv'26`
+
+Trains a lightweight participation policy that adaptively scales FFN contributions during generation to mitigate context–memory conflicts. The backbone LLM remains frozen.
+
 ### 3. Decoding
 
 * [Decoding] **Faithfulness-Aware Decoding Strategies for Abstractive Summarization** [link](https://aclanthology.org/2023.eacl-main.210/) `EACL'23`
